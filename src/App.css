@@ -8,7 +8,17 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.navbar-container {
+  display: flex;
+  justify-content: center;
+}
+.AppList {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
