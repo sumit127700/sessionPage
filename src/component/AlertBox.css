@@ -1,0 +1,56 @@
+.alert-overlay {
+  position: fixed; /* Use fixed to cover the entire screen */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  z-index: 1000; /* High z-index to be on top of other content */
+}
+
+.alert-modal {
+  padding: 20px 40px;
+  background-color: black; /* White background for the modal */
+  border-radius: 12px; /* Rounded corners for the modal */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Drop shadow for depth */
+  text-align: center;
+  width: 80%; /* Responsive width */
+  max-width: 400px; /* Max width for larger screens */
+  font-family: "Syne", sans-serif; /* Consistent font */
+}
+
+.alert-modal p {
+  /* Color indicating an error, typically red */
+  margin-bottom: 20px; /* Space between the text and the button */
+}
+.success {
+  color: green;
+}
+.failure {
+  color: #ea4335;
+}
+.love {
+  color: rgb(252, 1, 177);
+}
+.alert-modal-button {
+  padding: 10px 20px;
+  background-color: #6616cd; /* Consistent with other buttons */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.alert-modal-button:hover {
+  background-color: #7d33e1; /* Lighter hue on hover */
+}
+.buttonPurple {
+  background: none;
+  border: none;
+  color: #6616cd;
+}
