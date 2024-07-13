@@ -61,7 +61,7 @@ function GateSessionCard({
           </div>
         </div>
 
-        <span className="follow-btn">Follow</span>
+        {/**<span className="follow-btn">Follow</span> */}
       </div>
       <div className="content">
         <p>

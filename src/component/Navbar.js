@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <nav style={styles.navbar}>
       <h1 style={styles.title}>Sessions</h1>
-      <div style={styles.icons}>
+      {/* <div style={styles.icons}>
         <button style={styles.iconButton}>
           <svg
             width="30"
@@ -39,7 +39,7 @@ const Navbar = () => {
             style={styles.icon}
           />
         </button>
-      </div>
+      </div>*/}
     </nav>
   );
 };
