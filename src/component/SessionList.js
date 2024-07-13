@@ -10,7 +10,7 @@ function SessionList() {
   const [isAlert, setAlert] = React.useState(false);
   const openAppStore = () => {
     const playStoreUrl =
-      "https://play.google.com/store/search?q=guideus&c=apps&hl=en";
+      "https://play.google.com/store/apps/details?id=com.sniphat.version1";
     const appStoreUrl = "https://apps.apple.com/in/app/guideus/id6475980275";
 
     // Check if the user is on Android
